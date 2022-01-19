@@ -9,13 +9,12 @@ export default function Navbar() {
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     */}
  
-             <nav className="navbar  navbar-expand-lg navbar-dark bg-dark "> <a className="navbar-brand" href="#">ByeWord</a>
+             <nav className="navbar  navbar-expand-lg navbar-dark bg-dark "> <a className="navbar-brand" href="#">MGTOW ... is the path</a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span> </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item active"> <a className="nav-link" href="#">Home</a> </li>
 
-        <li className="nav-item"> <a className="nav-link" href="#">Login</a> </li>
         <li className="nav-item"> <a className="nav-link" href="#">About</a> </li>
         <li className="nav-item"> <a className="nav-link" href="#">Contact</a> </li>
       </ul>

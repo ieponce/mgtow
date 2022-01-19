@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>MGTOW - Explanation</title>
+        <title>Simon Page - </title>
         <link rel="icon" href="/icon.png" />
-        <meta name="description" content="MGTOW explained in simple words." />
+        <meta name="description" content="Simon meta tag" />
       </Head>
       <Navbar />
-      <Welcome />
+    
       <div className='container col-12 col-md-11 col-lg-9'>
         <section className=" jumbotron jumbotron-fluid  pr-4 pl-4   d-flex justify-content-center">
 
@@ -29,7 +29,7 @@ export default function Home() {
 
           </h2>
           <li>
-        <Link href="/simon">
+        <Link href="/">
           <a>Home</a>
         </Link>
       </li>
@@ -79,21 +79,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-light">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 col-lg-6 ml-auto mr-auto text-center">
-              <h3 className="section-title">Subscribe to Newsletter</h3>
-              <div className="input-group">
-                <input type="text" className="form-control form-control-lg" placeholder="Enter your email address" />
-                <span className="input-group-btn">
-                  <button className="btn btn-dark btn-lg" type="button">Subscribe</button>
-                </span> </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
 
       <footer>
       </footer>
