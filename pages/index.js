@@ -5,6 +5,7 @@ import Navbar from '../components/navbar/Navbar'
 import Welcome from '../components/welcome/Welcome'
 import React from 'react';
 import Link from 'next/link'
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -48,7 +49,7 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="row no-gutters">
-            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-2"> <img className="img-fluid" src="/1.jpg" /> </div>
+            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-2"> <Image width="150px" height="150px" className="img-fluid" src="/1.jpg" /> </div>
             <div className="col-12 col-sm-12 col-lg-7 bg-light blog-text order-2 order-lg-1">
               <h5>Category</h5>
               <h4>Blog Post Title</h4>
@@ -57,7 +58,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row no-gutters">
-            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-1"> <img className="img-fluid" src="/2.jpg" /> </div>
+            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-1"> <Image width="150px" height="150px" className="img-fluid" src="/2.jpg" /> </div>
             <div className="col-12 col-sm-12 col-lg-7 bg-white blog-text order-2 order-lg-2">
               <h5>Category</h5>
               <h4>Blog Post Title</h4>
@@ -66,7 +67,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row no-gutters">
-            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-2"> <img className="img-fluid" src="/3.jpg" /> </div>
+            <div className="col-12 col-sm-12 col-lg-5 order-1 order-lg-2"> <Image width="150px" height="150px" className="img-fluid" src="/3.jpg" /> </div>
             <div className="col-12 col-sm-12 col-lg-7 bg-light blog-text order-2 order-lg-1">
               <h5>Category</h5>
               <h4>Blog Post Title</h4>
